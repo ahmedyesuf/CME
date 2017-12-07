@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_mOz_wMVvEeeL4taz0UXL1A" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_mOz_wcVvEeeL4taz0UXL1A" bindingContexts="_mO0nrMVvEeeL4taz0UXL1A">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.emf.common.ui.URIEditorInputFactory&quot; id=&quot;eservice.diagram.part.EserviceDiagramEditorID&quot; name=&quot;PostPaidService.cme&quot; tooltip=&quot;file:/Users/ahmedsyesuf/Documents/M-Chair/PhD/Prototype%20Development/models/PostPaidService.cme&quot;>&#xA;&lt;persistable bundle=&quot;org.eclipse.emf.common.ui&quot; class=&quot;org.eclipse.emf.common.ui.URIEditorInput&quot; uri=&quot;file:/Users/ahmedsyesuf/Documents/M-Chair/PhD/Prototype%20Development/models/PostPaidService.cme&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.emf.common.ui.URIEditorInputFactory&quot; id=&quot;eservice.diagram.part.EserviceDiagramEditorID&quot; name=&quot;pbx.cme&quot; tooltip=&quot;file:/Users/ahmedsyesuf/Documents/M-Chair/PhD/Prototype%20Development/models/pbx.cme&quot;>&#xA;&lt;persistable bundle=&quot;org.eclipse.emf.common.ui&quot; class=&quot;org.eclipse.emf.common.ui.URIEditorInput&quot; uri=&quot;file:/Users/ahmedsyesuf/Documents/M-Chair/PhD/Prototype%20Development/models/pbx.cme&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.emf.common.ui.URIEditorInputFactory&quot; id=&quot;eservice.diagram.part.EserviceDiagramEditorID&quot; name=&quot;PostPaidService.cme&quot; tooltip=&quot;file:/Users/ahmedsyesuf/Documents/M-Chair/PhD/Prototype%20Development/models/PostPaidService.cme&quot;>&#xA;&lt;persistable bundle=&quot;org.eclipse.emf.common.ui&quot; class=&quot;org.eclipse.emf.common.ui.URIEditorInput&quot; uri=&quot;file:/Users/ahmedsyesuf/Documents/M-Chair/PhD/Prototype%20Development/models/PostPaidService.cme&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_mOz_wcVvEeeL4taz0UXL1A" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_mOz_wsVvEeeL4taz0UXL1A" x="387" y="113" width="1516" height="1274">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_mOz_wcVvEeeL4taz0UXL1A" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_mOz_wsVvEeeL4taz0UXL1A" x="388" y="88" width="1516" height="1274">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -20,7 +20,7 @@
           <tags>persp.perspSC:eservice.diagram.EservicePerspective</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_mOz_xcVvEeeL4taz0UXL1A" selectedElement="_mOz_xsVvEeeL4taz0UXL1A" horizontal="true">
             <children xsi:type="advanced:Placeholder" xmi:id="_mOz_xsVvEeeL4taz0UXL1A" elementId="org.eclipse.ui.editorss" containerData="7375" ref="_mO0m68VvEeeL4taz0UXL1A"/>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_mOz_x8VvEeeL4taz0UXL1A" containerData="2625" selectedElement="_mOz_ysVvEeeL4taz0UXL1A">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_mOz_x8VvEeeL4taz0UXL1A" containerData="2625" selectedElement="_mOz_yMVvEeeL4taz0UXL1A">
               <children xsi:type="basic:PartStack" xmi:id="_mOz_yMVvEeeL4taz0UXL1A" elementId="right" containerData="6000" selectedElement="_mOz_ycVvEeeL4taz0UXL1A">
                 <children xsi:type="advanced:Placeholder" xmi:id="_mOz_ycVvEeeL4taz0UXL1A" elementId="org.eclipse.ui.views.ContentOutline" ref="_mO0m8MVvEeeL4taz0UXL1A"/>
               </children>
@@ -42,25 +42,17 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_mO0m68VvEeeL4taz0UXL1A" elementId="org.eclipse.ui.editorss" selectedElement="_mO0m7MVvEeeL4taz0UXL1A">
-      <children xsi:type="basic:PartStack" xmi:id="_mO0m7MVvEeeL4taz0UXL1A" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_mO0m7cVvEeeL4taz0UXL1A">
+      <children xsi:type="basic:PartStack" xmi:id="_mO0m7MVvEeeL4taz0UXL1A" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_fW9vMMr2EeeHcfJabl1Kbw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <tags>noFocus</tags>
-        <children xsi:type="basic:Part" xmi:id="_mO0m7cVvEeeL4taz0UXL1A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PostPaidService.cme" iconURI="platform:/plugin/cme_project.diagram/icons/obj16/EserviceDiagramFile.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;eservice.diagram.part.EserviceDiagramEditorID&quot; name=&quot;PostPaidService.cme&quot; partName=&quot;PostPaidService.cme&quot; title=&quot;PostPaidService.cme&quot; tooltip=&quot;file:/Users/ahmedsyesuf/Documents/M-Chair/PhD/Prototype%20Development/models/PostPaidService.cme&quot;>&#xA;&lt;input bundle=&quot;org.eclipse.emf.common.ui&quot; class=&quot;org.eclipse.emf.common.ui.URIEditorInput&quot; factoryID=&quot;org.eclipse.emf.common.ui.URIEditorInputFactory&quot; uri=&quot;file:/Users/ahmedsyesuf/Documents/M-Chair/PhD/Prototype%20Development/models/PostPaidService.cme&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_fW9vMMr2EeeHcfJabl1Kbw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="pbx.cme" iconURI="platform:/plugin/cme_project.diagram/icons/obj16/EserviceDiagramFile.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;eservice.diagram.part.EserviceDiagramEditorID&quot; name=&quot;pbx.cme&quot; partName=&quot;pbx.cme&quot; title=&quot;pbx.cme&quot; tooltip=&quot;file:/Users/ahmedsyesuf/Documents/M-Chair/PhD/Prototype%20Development/models/pbx.cme&quot;>&#xA;&lt;input bundle=&quot;org.eclipse.emf.common.ui&quot; class=&quot;org.eclipse.emf.common.ui.URIEditorInput&quot; factoryID=&quot;org.eclipse.emf.common.ui.URIEditorInputFactory&quot; uri=&quot;file:/Users/ahmedsyesuf/Documents/M-Chair/PhD/Prototype%20Development/models/pbx.cme&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>eservice.diagram.part.EserviceDiagramEditorID</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_mO0m7sVvEeeL4taz0UXL1A" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_mO0m78VvEeeL4taz0UXL1A" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -95,30 +87,6 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mO0nBsVvEeeL4taz0UXL1A" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nB8VvEeeL4taz0UXL1A" elementId="new.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nCMVvEeeL4taz0UXL1A" elementId="new.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nCcVvEeeL4taz0UXL1A" elementId="save.group" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nCsVvEeeL4taz0UXL1A" elementId="save">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nC8VvEeeL4taz0UXL1A" elementId="save.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nDMVvEeeL4taz0UXL1A" elementId="print">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nDcVvEeeL4taz0UXL1A" elementId="print.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nDsVvEeeL4taz0UXL1A" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mO0nD8VvEeeL4taz0UXL1A" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -127,75 +95,6 @@
       <children xsi:type="menu:ToolBar" xmi:id="_mO0nEcVvEeeL4taz0UXL1A" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_mO0nEsVvEeeL4taz0UXL1A" elementId="group.nav" toBeRendered="false"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_mO0nE8VvEeeL4taz0UXL1A" elementId="eservice.diagram.part.EserviceDiagramEditorID">
-        <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nFMVvEeeL4taz0UXL1A" elementId="toolbarFontGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nFcVvEeeL4taz0UXL1A" elementId="fontNameContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nFsVvEeeL4taz0UXL1A" elementId="fontSizeContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nF8VvEeeL4taz0UXL1A" elementId="fontBoldAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nGMVvEeeL4taz0UXL1A" elementId="fontItalicAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nGcVvEeeL4taz0UXL1A" elementId="toolbarColorLineGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nGsVvEeeL4taz0UXL1A" elementId="fontColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nG8VvEeeL4taz0UXL1A" elementId="fillColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nHMVvEeeL4taz0UXL1A" elementId="lineColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nHcVvEeeL4taz0UXL1A" elementId="toolbarCopyAppearanceGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nHsVvEeeL4taz0UXL1A" elementId="copyAppearancePropertiesAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nH8VvEeeL4taz0UXL1A" elementId="toolBarViewGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nIMVvEeeL4taz0UXL1A" elementId="toolbarEditGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nIcVvEeeL4taz0UXL1A" elementId="toolbarFormatGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nIsVvEeeL4taz0UXL1A" elementId="autoSizeAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nI8VvEeeL4taz0UXL1A" elementId="toolbarFilterGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nJMVvEeeL4taz0UXL1A" elementId="showConnectorLabels">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nJcVvEeeL4taz0UXL1A" elementId="hideConnectorLabels">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nJsVvEeeL4taz0UXL1A" elementId="toolbarNavigateGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nJ8VvEeeL4taz0UXL1A" elementId="zoomContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nKMVvEeeL4taz0UXL1A" elementId="toolbarRestGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nKcVvEeeL4taz0UXL1A" elementId="toolbarAdditions">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mO0nKsVvEeeL4taz0UXL1A" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -207,12 +106,6 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mO0nLsVvEeeL4taz0UXL1A" elementId="org.eclipse.ui.workbench.help" visible="false">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nL8VvEeeL4taz0UXL1A" elementId="group.help">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_mO0nMMVvEeeL4taz0UXL1A" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_mO0nMcVvEeeL4taz0UXL1A" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>
@@ -402,7 +295,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_mO0noMVvEeeL4taz0UXL1A" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.console.ConsoleView"/>
     </bindings>
-    <bindings xmi:id="_mO0nocVvEeeL4taz0UXL1A" keySequence="COMMAND+CTRL+F" command="_mO1OTcVvEeeL4taz0UXL1A"/>
+    <bindings xmi:id="_iT4N0dA8EeewXt0AzxmO3Q" keySequence="COMMAND+CTRL+F" command="_mO1OTcVvEeeL4taz0UXL1A"/>
   </bindingTables>
   <bindingTables xmi:id="_mO0nosVvEeeL4taz0UXL1A" elementId="eservice.diagram.ui.diagramContext" bindingContext="_mO0nsMVvEeeL4taz0UXL1A">
     <bindings xmi:id="_mO0no8VvEeeL4taz0UXL1A" keySequence="F5" command="_mO1N6MVvEeeL4taz0UXL1A"/>
@@ -411,7 +304,7 @@
     <bindings xmi:id="_mO0npcVvEeeL4taz0UXL1A" keySequence="COMMAND+SHIFT+D" command="_mO0n08VvEeeL4taz0UXL1A"/>
   </bindingTables>
   <bindingTables xmi:id="_mO0npsVvEeeL4taz0UXL1A" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_mO0ns8VvEeeL4taz0UXL1A">
-    <bindings xmi:id="_mO0np8VvEeeL4taz0UXL1A" keySequence="M1+W" command="_mO1OT8VvEeeL4taz0UXL1A"/>
+    <bindings xmi:id="_iT404NA8EeewXt0AzxmO3Q" keySequence="M1+W" command="_mO1OT8VvEeeL4taz0UXL1A"/>
   </bindingTables>
   <bindingTables xmi:id="_mO0nqMVvEeeL4taz0UXL1A" bindingContext="_mO0ntsVvEeeL4taz0UXL1A"/>
   <bindingTables xmi:id="_mO0nqcVvEeeL4taz0UXL1A" bindingContext="_mO0nt8VvEeeL4taz0UXL1A"/>
